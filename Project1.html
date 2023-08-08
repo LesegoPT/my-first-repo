@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Truly Hemera</title>
+    <style>
+      body {
+        background: #ffd6c2;
+      }
+      .heading {
+        border: 2px solid #fff1c5;
+        border-radius: 0px 85px 0px 85px;
+      }
+      h1 {
+        color: #9b5d73;
+        text-align: center;
+        text-decoration: double;
+        font-size: 50px;
+        margin: 0px 0px 5px 0px;
+      }
+      h2 {
+        color: #c38b8b;
+        text-align: center;
+        font-size: 28px;
+        margin: 0 auto;
+      }
+      img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+        border-radius: 8px;
+        width: 300px;
+      }
+      p {
+        line-height: 1, 5;
+        font-size: 18px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .make-up {
+        display: block;
+        margin-left: 20px;
+        padding-bottom: 15px;
+        text-align: center;
+        text-decoration: none;
+        color: #c38b8b;
+        font-weight: lighter;
+        font-size: 18px;
+      }
+      .make-up:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      button {
+        display: block;
+        padding: 20px 25px;
+        margin: 0 auto;
+        font-size: 16px;
+        color: white;
+        background: #975a5e;
+        border: none;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+        border-radius: 20px;
+        transition: all 150ms ease-in-out;
+      }
+      button:hover {
+        cursor: pointer;
+        background: white;
+        color: #975a5e;
+      }
+      .beauty {
+        text-align: center;
+        font-size: 16px;
+      }
+      .instagram {
+        color: #975a5e;
+        font-weight: bold;
+      }
+      .twitter {
+        color: #975a5e;
+        font-weight: bold;
+      }
+      .footer {
+        font-size: 13px;
+        font-family: monospace;
+        font-weight: 200px;
+        background: linear-gradient(
+          44.8deg,
+          rgba(255, 136, 102, 0.67) -53.1%,
+          rgba(255, 221, 136, 0.28) 49%
+        );
+      }
+      .bodyedit {
+        max-width: 650px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bodyedit">
+      <div class="heading">
+        <h1>
+          <em><strong> Truly Hemera</strong></em>
+        </h1>
+        <h2>Beauty Affair</h2>
+      </div>
+      <br />
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/087/378/original/983f16bbaf8efce8fec2a49ceeded725.jpg?1687938962"
+        alt="Beauty Affair"
+      />
+      <br />
+      <hr />
+      <p>
+        Truly Hemera is an upcoming cosmetic brand created to inspire true
+        beauty by enhancing the existing one. The word ‘Hemera’ is derived from
+        the Greek word ‘Goddess of the Day’ and our main goal is to help women
+        feel like goddesses, boost their confidence, and feel empowered. We will
+        be offering a wide range of high-quality beauty products, virgin-hair
+        wigs and installations, as well as make-up services.
+      </p>
+      <p>
+        Truly Hemera’s core values include but not limited to: Initiatives,
+        innovation, passion, integrity, teamwork, respect and non-exclusion.
+        Combining all these values and top skills in all our related activities
+        will ensure exceptional success for the business.
+      </p>
+      <br />
+      <p>
+        Our quality range of products are made of excellence and cruelty free.
+      </p>
+      <br />
+      <button>Subcribe to the upcoming newsletter</button>
+      <br />
+      <a
+        href="https://www.justmylook.com/blog/2017/02/5-advantages-of-wearing-great-makeup/"
+        target="_blank"
+        class="make-up"
+      >
+        Read content on wearing great make-up💄
+      </a>
+      <br />
+      <div class="beauty">
+        Get in touch with us on social media*
+        <span class="twitter">Twitter:</span> @trulyhemera_
+        <span class="instagram">Instagram:</span>
+        @trulyhemera.
+      </div>
+      <br />
+      <br />
+      <p class="footer">This was coded by Lesego Thipe</p>
+    </div>
+    <script>
+      function subscribe() {
+        let name = prompt("What is your name?");
+        let email = prompt("Kindly enter your email");
+        let age = prompt("How old are you?");
+        if (age < 18) {
+          alert(
+            "Hey " +
+              name +
+              "! Thank you for your interest, however you can't subscribe🙁"
+          );
+        } else {
+          alert(
+            "Hey " +
+              name +
+              "! Thank you for your interest, further details will be sent to your email😃"
+          );
+        }
+      }
+      let subscribeButton = document.querySelector("button");
+      subscribeButton.addEventListener("click", subscribe);
+    </script>
+    weekDays.forEach(function(day) {
+  console.log(`Temperature on ${day} is 18 degrees`);
+  </body>
+</html>
